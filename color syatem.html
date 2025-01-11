@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal bg color</title>
+    <style>
+        :root    {
+            color-scheme: dark;
+        }
+
+        .dropdown {
+            background-color: red;
+            color:black;
+        }
+
+        .label {
+            background-color: green;
+        }
+        
+        div {
+            background-color: blue;
+            color: yellowgreen
+        }
+    </style>
+</head>
+<body>
+    <div> background color </div>
+    <select class="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    <form>
+        <label class="label" for="text">Text:</label>
+        <input type="text" id="text" name="text"><br><br>
+    </form>
+</body>
+</html>
